@@ -52,7 +52,7 @@
     - Created with status code 201 
         - Token is valid and user was created and linked with the target social platform
         - Response will be a normal registration response exactly as normal registration
-    * Note: if token isn't valid it will be ignored and no linking will happen
+
 ---
 ## 2. Link
 ### This request is performed when user try to link his account with one of the supported social platforms
