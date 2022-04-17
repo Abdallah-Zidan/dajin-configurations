@@ -34,7 +34,7 @@
 ---
 ## 2. Registration with social linking
 ### This request is performed when user try to login using social login and the token is valid but he doesn't have a linked account with that social platform
-#### URL :  /api/v1/social/login
+#### URL :  /api/v1/register
 #### Method: POST
 #### Headers: 
     - Content-Type: application/json
