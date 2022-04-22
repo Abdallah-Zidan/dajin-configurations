@@ -34,7 +34,7 @@
 ---
 ## 2. Registration with social linking
 ### This request is performed when user try to login using social login and the token is valid but he doesn't have a linked account with that social platform
-#### URL :  /api/v1/social/login
+#### URL :  /api/v1/register
 #### Method: POST
 #### Headers: 
     - Content-Type: application/json
@@ -52,7 +52,7 @@
     - Created with status code 201 
         - Token is valid and user was created and linked with the target social platform
         - Response will be a normal registration response exactly as normal registration
-    * Note: if token isn't valid it will be ignored and no linking will happen
+
 ---
 ## 2. Link
 ### This request is performed when user try to link his account with one of the supported social platforms
